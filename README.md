@@ -21,33 +21,36 @@ This project was developed as part of the **Go Backend Development Task** for Ai
 
 ## 📁 Project Structure
 
-/cmd/server/main.go 
+cmd/
+└── server/
+    └── main.go
 
-/config/ 
+config/
 
-/db/migrations/ user.sql
+db/
+├── migrations/
+│   └── user.sql
+└── sqlc/
+    ├── db.go
+    ├── models.go
+    ├── usersQuery.sql
+    └── usersQuery.sql.go
 
-/db/sqlc/ ├── db.go 
-          ├── models.go 
-          ├── usersQuery.sql 
-          ├── usersQuery.sql.go 
+internal/
+├── handler/
+│   └── user_handler.go
+├── repository/
+│   └── user_repository.go
+├── service/
+│   ├── age.go
+│   └── user_service.go
+├── routes/
+│   └── routes.go
+├── middleware/
+├── models/
+└── logger/
+    └── logger.go
 
-/internal/ 
-
-├── handler/ user_handler.go
-
-├── repository/ user_repository.go
-
-├── service/ ├── age.go 
-             ├── user_service.go 
-             
-├── routes/ routes.go
-
-├── middleware/ 
-
-├── models/ 
-
-└── logger/ logger.go
 
 .env 
 
