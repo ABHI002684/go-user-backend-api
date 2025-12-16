@@ -27,10 +27,10 @@ This project was developed as part of the **Go Backend Development Task** for Ai
 
 /db/migrations/ user.sql
 
-/db/sqlc/ ├── db.go
-          ├── models.go
-          ├── usersQuery.sql
-          ├── usersQuery.sql.go
+/db/sqlc/ ├── db.go 
+          ├── models.go 
+          ├── usersQuery.sql 
+          ├── usersQuery.sql.go 
 
 /internal/ 
 
@@ -39,7 +39,7 @@ This project was developed as part of the **Go Backend Development Task** for Ai
 ├── repository/ user_repository.go
 
 ├── service/ ├── age.go 
-             ├── user_service.go
+             ├── user_service.go 
              
 ├── routes/ routes.go
 
