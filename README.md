@@ -25,25 +25,29 @@ This project was developed as part of the **Go Backend Development Task** for Ai
 
 /config/ 
 
-/db/migrations/ 
+/db/migrations/ user.sql
 
-/db/sqlc/<generated> 
+/db/sqlc/ ├── db.go
+          ├── models.go
+          ├── usersQuery.sql
+          ├── usersQuery.sql.go
 
 /internal/ 
 
-├── handler/ 
+├── handler/ user_handler.go
 
-├── repository/ 
+├── repository/ user_repository.go
 
-├── service/ 
-
-├── routes/
+├── service/ ├── age.go 
+             ├── user_service.go
+             
+├── routes/ routes.go
 
 ├── middleware/ 
 
 ├── models/ 
 
-└── logger/ 
+└── logger/ logger.go
 
 .env 
 
